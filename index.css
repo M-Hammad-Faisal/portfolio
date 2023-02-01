@@ -1,0 +1,378 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: medium;
+  user-select: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.nav-ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0px;
+}
+
+.list-style {
+  list-style: none;
+}
+
+.nav-li {
+  padding: 10px;
+}
+
+.brand-name {
+  font-size: 20px;
+  margin-right: 100px;
+}
+
+.connect-me {
+  margin-left: 100px;
+}
+
+.nav-bar {
+  /* background-color: #32496c; */
+  padding: 10px;
+}
+
+.my-image {
+  margin: 10px 10px 10px 10px;
+  border-radius: 50%;
+}
+
+.my-name-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-name {
+  text-align: center;
+}
+
+.name {
+  font-size: 30px;
+}
+
+.footer {
+  width: 100%;
+  margin-top: 20px;
+  padding: 20px 10px;
+}
+
+.my-image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px 0px;
+  padding: 30px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.details {
+  padding: 40px 0px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-start {
+  justify-content: start;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.justify-content-end {
+  justify-content: end;
+}
+
+.align-items-start {
+  align-items: start;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-end {
+  align-items: end;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.white {
+  color: white;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.red {
+  color: red;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.black {
+  color: black;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.link-to-text {
+  text-decoration: none;
+  color: #32496c;
+  cursor: pointer;
+}
+
+.purple {
+  color: #32496c;
+}
+
+.bg-purple {
+  background-color: #32496c;
+}
+
+.link-to-text:hover {
+  color: #9e6fd9;
+}
+
+.link-to-btn {
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #32496c;
+  color: white;
+  font-size: 16px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.p-5 {
+  padding: 5px;
+}
+
+.font-medium {
+  font-size: 14px;
+}
+
+.font-large {
+  font-size: 20px;
+}
+
+.p-3 {
+  padding: 3px;
+}
+
+.p-40 {
+  padding: 00px 250px 0px 250px;
+}
+.m-200 {
+  margin: 0px 250px;
+}
+
+.m-80 {
+  margin: 80px 0px;
+}
+
+.margin-left {
+  margin-left: 250px;
+}
+
+.educations,
+.main,
+.experiences,
+.projects {
+  min-height: 100vh;
+}
+
+.education,
+.sub-main,
+.experience,
+.project {
+  flex: 1;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.download {
+  margin: 20px;
+}
+
+.skills {
+  margin: 20px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+
+.border-radius-10 {
+  border-radius: 10px;
+}
+
+.border-radius-5 {
+  border-radius: 5px;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-45 {
+  width: 45%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.w-70 {
+  width: 70%;
+}
+
+@media only screen and (max-width: 1100px) {
+  .details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .personal-details {
+    margin-bottom: 30px;
+  }
+  .education {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .project{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px;
+    width: 80%;
+  }
+  .margin-left {
+    margin: 0px;
+  }
+  .p-40 {
+    padding: 0px;
+  }
+  .connect-me {
+    margin: 0px;
+  }
+  .brand-name {
+    margin: 0px;
+  }
+  .my-header {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .personal-details {
+    display: none;
+  }
+}
+@media only screen and (max-width: 671px) {
+  .brand-name,
+  .connect-me {
+    display: none;
+  }
+  .name {
+    font-size: 25px;
+  }
+  .text {
+    padding: 0px 30px;
+  }
+  .details {
+    display: none;
+  }
+}
